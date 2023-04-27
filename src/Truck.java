@@ -1,4 +1,4 @@
-public class Truck extends Transport{
+public class Truck extends Transport implements Service{
     private final int trailer;
 
 
@@ -7,15 +7,10 @@ public class Truck extends Transport{
         this.trailer = trailer;
     }
 
-    public void updateTyre() {
+    public void service() {
         System.out.println("Меняем покрышку");
-    }
-
-    public void checkEngine() {
         System.out.println("Проверяем двигатель");
-    }
-
-    public void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
+
 }

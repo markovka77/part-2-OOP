@@ -6,12 +6,10 @@ public class Car extends Transport  implements Service{
     }
 
 
-    public void serviceCar(int wheelsCount){
+    public void service(){
         System.out.println("Меняем покрышку");
-    }
-    public void serviceCar(String modelName){
         System.out.println("Проверяем двигатель");
-
     }
+
 
 }

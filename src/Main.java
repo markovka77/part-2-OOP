@@ -6,9 +6,13 @@ public class Main {
         System.out.println();
 
         //Машина
-        Car car1 = new Car("Tesla",4);
-        car1.serviceCar("Tesla");
-        car1.serviceCar(4);
+        Car car = new Car("Tesla",4);
+        car.service();
+        System.out.println();
+
+        //
+        Truck truck = new Truck("Scania",6,12);
+        truck.service();
 
 
 
